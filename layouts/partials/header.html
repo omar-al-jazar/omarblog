@@ -1,0 +1,31 @@
+<header class="header">
+    <div class="header__inner">
+        {{ partial "logo.html" . }}
+        <div class="navigation-mobile">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+        </div>
+        <div class="language-switcher">
+            <button onclick="window.location.href='{{ .Site.BaseURL }}en/'">English</button>
+            <button onclick="window.location.href='{{ .Site.BaseURL }}ar/'">عربي</button>
+        </div>
+    </div>
+
+    {{ if and .Site.Menus.main (not .IsHome) }}
+        <nav class="navigation-main" aria-label="Main menu">
+            {{ $currentNode := . }}
+            <ul class="navigation-list">
+                {{ range .Site.Menus.main }}
+                <li class="navigation-list-item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}">
+                    <a href="{{ .URL | relLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </nav>
+    {{ end }}
+
+    {{ if len $.Site.Menus }}
+        {{ partial "mobile-menu.html" . }}
+    {{ end }}
+</header>

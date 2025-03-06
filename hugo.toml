@@ -1,0 +1,97 @@
+baseURL = "/"  # CHANGE THIS LATER for GitHub Pages!
+title = "My Bilingual Blog"
+theme = "terminal"
+pagerSize = 5
+
+[params]
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts" # Keep this if you organize posts in a "posts" folder
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 2
+
+  # show selector to switch language
+  showLanguageSelector = false  # We have our custom button, so set this to false
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = false
+
+  # Auto cover is a nice feature; keep it if you like
+  autoCover = true
+
+  # Showing last updated is generally a good idea
+  showLastUpdated = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "My Bilingual Blog" # Use your blog's title
+    weight = 1
+    contentDir = "content/en"
+
+    [languages.en.params]
+      subtitle = "A blog in English"
+      owner = ""  # Add your name here if you want
+      keywords = "" # Add relevant keywords, separated by commas
+      copyright = "" # Add copyright info if you want
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "My Blog" # Customize your logo text
+        logoHomeLink = "/"
+
+    [languages.en.menu] #add later your pages.
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+
+  [languages.ar]
+    languageName = "Arabic"
+    title = "مدونتي ثنائية اللغة" # Use your blog's title (Arabic)
+    weight = 2
+    contentDir = "content/ar"
+    #This is important for RTL
+    languageDirection = "rtl"
+
+    [languages.ar.params]
+      subtitle = "مدونتي بالعربي"
+      owner = ""  # Add your name here if you want
+      keywords = ""  # Add relevant keywords (Arabic), separated by commas
+      copyright = ""  # Add copyright info if you want
+      menuMore = "عرض المزيد"
+      readMore = "اقرأ المزيد"
+      readOtherPosts = "اقرأ منشورات أخرى"
+      newerPosts = "منشورات أحدث"
+      olderPosts = "منشورات أقدم"
+      missingContentMessage = "الصفحة مش موجودة..."
+      missingBackButtonLabel = "ما ترجع يا جدع إلى الصفحة الرئيسية"
+      minuteReadingTime = "دقيقة قراءة"
+      words = "كلمات(الدرر)"
+
+      [languages.ar.params.logo]
+        logoText = "مدونتي اللي بتاعتي"  # Customize your logo text (Arabic)
+        logoHomeLink = "/"
+
+    [languages.ar.menu] # Add later your pages in Arabic.
+      [[languages.ar.menu.main]]
+        identifier = "about"
+        name = "نبذة عني"
+        url = "/about"
+
+# These are fine to leave as they are, unless you want to customize them
+[params.twitter]
+  creator = ""
+  site = ""
