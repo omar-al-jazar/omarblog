@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My Bilingual Blog</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on My Bilingual Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First English Post</title>
+      <link>/posts/test_en/</link>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/test_en/</guid>
+      <description>&lt;h1 id=&#34;hello-world&#34;&gt;Hello, world!&lt;/h1&gt;&#xA;&lt;h1 id=&#34;my-first-english-postnhello-world&#34;&gt;My First English Post\nHello, world!&lt;/h1&gt;&#xA;&lt;p&gt;&lt;img src=&#34;/images/pixel-art-space-background-ai-generated-photo.jpg&#34; alt=&#34;Space Background&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
