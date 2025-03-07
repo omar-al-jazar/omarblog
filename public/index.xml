@@ -4,8 +4,7 @@
     <title>My Bilingual Blog</title>
     <link>/</link>
     <description>Recent content on My Bilingual Blog</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

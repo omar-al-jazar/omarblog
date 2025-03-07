@@ -4,8 +4,7 @@
     <title>مدونتي ثنائية اللغة</title>
     <link>/ar/</link>
     <description>Recent content on مدونتي ثنائية اللغة</description>
-    <generator>Hugo</generator>
-    <language>ar</language>
-    <atom:link href="/ar/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language><atom:link href="/ar/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
