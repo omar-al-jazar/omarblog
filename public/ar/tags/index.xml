@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on مدونتي ثنائية اللغة</title>
-    <link>/ar/tags/</link>
+    <link>https://omar-al-jazar.github.io/omarblog/ar/tags/</link>
     <description>Recent content in Tags on مدونتي ثنائية اللغة</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ar</language><atom:link href="/ar/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>ar</language><atom:link href="https://omar-al-jazar.github.io/omarblog/ar/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

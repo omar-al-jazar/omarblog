@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/ar/categories/</loc>
+    <loc>https://omar-al-jazar.github.io/omarblog/ar/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="https://omar-al-jazar.github.io/omarblog/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="/ar/categories/"
+                href="https://omar-al-jazar.github.io/omarblog/ar/categories/"
                 />
   </url><url>
-    <loc>/ar/tags/</loc>
+    <loc>https://omar-al-jazar.github.io/omarblog/ar/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="https://omar-al-jazar.github.io/omarblog/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="/ar/tags/"
+                href="https://omar-al-jazar.github.io/omarblog/ar/tags/"
                 />
   </url><url>
-    <loc>/ar/</loc>
+    <loc>https://omar-al-jazar.github.io/omarblog/ar/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="https://omar-al-jazar.github.io/omarblog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="/ar/"
+                href="https://omar-al-jazar.github.io/omarblog/ar/"
                 />
   </url>
 </urlset>

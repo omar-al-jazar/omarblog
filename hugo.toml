@@ -1,8 +1,8 @@
-baseURL = "/"  # CHANGE THIS LATER for GitHub Pages!
+baseURL = "https://omar-al-jazar.github.io/omarblog/"  # CHANGE THIS LATER for GitHub Pages!
 title = "My Bilingual Blog"
 theme = "terminal"
 pagerSize = 5
-
+staticDir = ["static"]
 [params]
   # dir name of your main content (default is `content/posts`).
   # the list of set content will show up on your index page (baseurl).
